@@ -131,5 +131,25 @@ namespace UniversityWpf1
                 MessageBox.Show("There is no books");
             }
         } */
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            btnData_Click(this,null);
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            btnGrade_Click(this, null);
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
+        {
+            btnGrade_Click(this, null);
+        }
     }
 }
